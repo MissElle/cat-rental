@@ -16,39 +16,36 @@ nav {
 }
 
 article {
+  position: absolute;
+  top:18rem;
+  width: 30rem;
   background-color: white;
 }
 
 aside {
-  position: relative;
-  top: 1rem;
-  float: right;
+  position:absolute;
+  top: 19rem;
   width: 15rem;
+  left: 30rem;
   border-width: 1px 1px 1px 1px;
   border-color: darkgray;
+  border-style:solid;
 }
 
 footer {
   position:absolute;
-  top: 68rem;
+  bottom: auto;
   width: 45rem;
   height: 8rem;
   background-color: black;
   
 }
 
-div.body-container {
-  position: absolute;
-  top: 18rem;
-  width: 45rem;
-  height:50rem;
-}
-
 h1 {
   color: white;
 }
 
-h2 {
+header h2 {
   color: darkgray;
 }
 
