@@ -1,0 +1,46 @@
+header {
+  position: absolute;
+  width: 45rem;
+  height: auto;
+  background-color: black;
+  font-family: Helvetica;
+}
+
+nav {
+  position: absolute;
+  width: 45rem;
+  background-color: darkgray;
+}
+
+article {
+  max-width: 45rem;
+  background-color: white;
+}
+
+aside {
+  float: right;
+  width: 
+}
+
+footer {
+  width: 45rem;
+  background-color: black;
+  
+}
+
+div.body-container {
+  position: absolute;
+  width: 45rem;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: darkgray;
+}
+
+nav a {
+  color: #4e054c;
+}
