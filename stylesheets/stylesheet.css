@@ -16,14 +16,15 @@ nav {
 }
 
 article {
-  float:left;
   background-color: white;
 }
 
 aside {
+  position: relative;
+  top: 1rem;
   float: right;
   width: 15rem;
-  border:.2rem .2rem .2rem .2rem;
+  border-width: 1px 1px 1px 1px;
   border-color: darkgray;
 }
 
