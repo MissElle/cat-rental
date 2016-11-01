@@ -1,36 +1,46 @@
 header {
   position: absolute;
+  top: 0px;
   width: 45rem;
-  height: auto;
+  min-height: 15rem;
   background-color: black;
   font-family: Helvetica;
 }
 
 nav {
   position: absolute;
+  top: 15rem;
   width: 45rem;
+  height: 3rem;
   background-color: darkgray;
 }
 
 article {
-  max-width: 45rem;
+  float:left;
   background-color: white;
 }
 
 aside {
   float: right;
-  width: 
+  width: 15rem;
+  border:.2rem .2rem .2rem .2rem;
+  border-color: darkgray;
 }
 
 footer {
+  position:absolute;
+  top: 68rem;
   width: 45rem;
+  height: 8rem;
   background-color: black;
   
 }
 
 div.body-container {
   position: absolute;
+  top: 18rem;
   width: 45rem;
+  height:50rem;
 }
 
 h1 {
