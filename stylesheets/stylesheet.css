@@ -22,7 +22,7 @@ aside {
   width: 40%;
   margin: 1rem;
   overflow: hidden;
-  border-width: 1px 1px 1px 1px;
+  border-width: .3rem .3rem .3rem .3rem;
   border-color: darkgray;
   border-style:solid;
 }
@@ -42,10 +42,13 @@ div.container {
 
 h1 {
   color: white;
+  font-weight: 100;
 }
 
 header h2 {
   color: darkgray;
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 nav a {
