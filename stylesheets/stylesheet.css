@@ -18,6 +18,9 @@ article {
   float: left;
   width: 50%;
   margin: 1rem;
+  font-family: Helvetica;
+  font-weight:100;
+  font-size: 1.3rem;
   overflow: hidden;
   background-color: white;
 }
@@ -26,6 +29,9 @@ aside {
   float: right;
   width: 40%;
   margin: 1rem;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 1.15rem;
   overflow: hidden;
   border-width: .3rem .3rem .3rem .3rem;
   border-color: darkgray;
@@ -47,19 +53,19 @@ div.container {
 
 header h1 {
   position: absolute;
-  top: 7rem;
+  top: 6.2rem;
   left: 1.5rem;
   color: white;
   font-weight:lighter;
-  font-size: 2.7rem;
+  font-size: 3.3rem;
 }
 
 header h2 {
   position:absolute;
-  top: 11.5rem;
+  top: 11rem;
   left: 1.5rem;
   color: darkgray;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 100;
 }
 
@@ -94,4 +100,8 @@ p.copyright {
   font-size: 1rem;
   font-family: Helvetica;
   color:white;
+}
+
+p.testimonial {
+  font-style: italic;
 }
