@@ -21,14 +21,16 @@ article {
   font-family: Helvetica;
   font-weight:100;
   font-size: 1.3rem;
+  line-height: 50%;
   overflow: hidden;
   background-color: white;
 }
 
 aside {
   float: right;
-  width: 40%;
+  width: 39%;
   margin: 1rem;
+  padding: .1rem .1rem .1rem .1rem;
   font-family: Helvetica;
   text-align: center;
   font-size: 1.15rem;
@@ -36,6 +38,11 @@ aside {
   border-width: .3rem .3rem .3rem .3rem;
   border-color: darkgray;
   border-style:solid;
+}
+
+figure {
+  font-weight:normal;
+  line-height: 0%;
 }
 
 footer {
@@ -49,6 +56,16 @@ div.container {
   width: 45rem;
   position: relative;
   margin: auto;
+}
+
+figure a {
+  color:red;
+  text-decoration: underline;
+  float:right;
+}
+
+p {
+  line-height: normal;
 }
 
 header h1 {
