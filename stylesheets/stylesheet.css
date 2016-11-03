@@ -41,7 +41,6 @@ aside {
 }
 
 figure {
-  font-weight:normal;
   line-height: 0%;
 }
 
@@ -121,4 +120,12 @@ p.copyright {
 
 p.testimonial {
   font-style: italic;
+}
+
+a.call-to-action {
+  float:right;
+  color:red;
+  text-decoration: underline;
+  font-size:1.5rem;
+  margin: 1rem 1rem 1rem 1rem;
 }
