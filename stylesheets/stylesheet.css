@@ -32,7 +32,7 @@ aside {
   font-family: Helvetica;
   text-align: center;
   font-size: 1.15rem;
-  overflow: hidden;
+  overflow:auto;
   border-width: .3rem .3rem .3rem .3rem;
   border-color: darkgray;
   border-style:solid;
@@ -55,14 +55,18 @@ div.container {
   margin: auto;
 }
 
+p {
+  line-height: normal;
+}
+
+img {
+  width:100%;
+}
+
 figure a {
   color:red;
   text-decoration: underline;
   float:right;
-}
-
-p {
-  line-height: normal;
 }
 
 article.aside {
@@ -122,6 +126,13 @@ p.copyright {
 
 p.testimonial {
   font-style: italic;
+}
+
+p.rates {
+  font-style: italic;
+  font-size: 1.2rem;
+  position: relative;
+  left: 3rem;
 }
 
 a.call-to-action {
