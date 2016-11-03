@@ -1,12 +1,16 @@
 header {
   min-height: 15rem;
+  width: 100%;
   background-color: black;
   font-family: Helvetica;
+  display: inline-block;
 }
 
 nav {
   height: 3rem;
+  width: 100%;
   background-color: darkgray;
+  display: inline-block;
 }
 
 article {
@@ -40,12 +44,19 @@ div.container {
   margin: auto;
 }
 
-h1 {
+header h1 {
+  position: absolute;
+  top: 7rem;
+  left: 1.5rem;
   color: white;
-  font-weight: 100;
+  font-weight:lighter;
+  font-size: 2.7rem;
 }
 
 header h2 {
+  position:absolute;
+  top: 11.5rem;
+  left: 1.5rem;
   color: darkgray;
   font-size: 1rem;
   font-weight: 100;
@@ -53,4 +64,13 @@ header h2 {
 
 nav a {
   color: #4e054c;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+nav li {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 0rem 1.5rem 0rem 1.5rem;
 }
