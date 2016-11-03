@@ -1,44 +1,43 @@
 header {
-  position: absolute;
-  top: 0px;
-  width: 45rem;
   min-height: 15rem;
   background-color: black;
   font-family: Helvetica;
 }
 
 nav {
-  position: absolute;
-  top: 15rem;
-  width: 45rem;
   height: 3rem;
   background-color: darkgray;
 }
 
 article {
-  position: absolute;
-  top:18rem;
-  width: 30rem;
+  float: left;
+  width: 50%;
+  margin: 1rem;
+  overflow: hidden;
   background-color: white;
 }
 
 aside {
-  position:absolute;
-  top: 19rem;
-  width: 15rem;
-  left: 30rem;
+  float: right;
+  width: 40%;
+  margin: 1rem;
+  overflow: hidden;
   border-width: 1px 1px 1px 1px;
   border-color: darkgray;
   border-style:solid;
 }
 
 footer {
-  position:absolute;
-  bottom: auto;
-  width: 45rem;
+  clear: both;
   height: 8rem;
   background-color: black;
   
+}
+
+div.container {
+  width: 45rem;
+  position: relative;
+  margin: auto;
 }
 
 h1 {
