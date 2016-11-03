@@ -33,7 +33,7 @@ aside {
 
 footer {
   clear: both;
-  height: 8rem;
+  height: 9rem;
   background-color: black;
   
 }
@@ -73,4 +73,24 @@ nav li {
   display: inline-block;
   text-align: center;
   padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+p.contact {
+  text-align: left;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color:white;
+  padding: 1rem
+}
+
+p.contact a {
+  color:red;
+  text-decoration: underline;
+}
+
+p.copyright {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color:white;
 }
