@@ -3,7 +3,6 @@ header {
   width: 100%;
   background-color: black;
   font-family: Helvetica;
-  display: inline-block;
 }
 
 nav {
@@ -16,7 +15,6 @@ nav {
 
 article {
   float: left;
-  width: 50%;
   margin: 1rem;
   font-family: Helvetica;
   font-weight:100;
@@ -65,6 +63,10 @@ figure a {
 
 p {
   line-height: normal;
+}
+
+article.aside {
+  width: 50%;
 }
 
 header h1 {
