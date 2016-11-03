@@ -64,9 +64,28 @@ img {
 }
 
 figure a {
+  float:right;
   color:red;
   text-decoration: underline;
-  float:right;
+}
+
+figure.profile {
+  float: left;
+  max-width: 16rem;
+  min-height: 25rem;
+  overflow:hidden;
+  text-align: center;
+}
+
+figure.profile img {
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+figure.profile p {
+  font-style:italic;
+  font-size: .9rem;
 }
 
 article.aside {
